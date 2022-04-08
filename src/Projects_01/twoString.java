@@ -26,5 +26,8 @@ public class twoString {
 
          */
 
+
+        System.out.println("merhba github");
+
     }
 }
