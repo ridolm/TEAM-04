@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class arrayContains {
 
     /*
-        Given two arrays of ints sorted in increasing order,
+        Given   two arrays of ints sorted in increasing order,
         outer and inner,
         return true if all of the numbers in inner appear in outer.
         Verify first array contains second array.
