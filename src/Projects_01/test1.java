@@ -93,6 +93,10 @@ import java.io.PrintStream;
          Assert.assertTrue("output friday olmalı ama siziin output" + getOutput(), getOutput().toLowerCase().contains("friday"));
      }
 
+
+
+
+
      @Test
      public void days2() {
          final String testString = "2";
