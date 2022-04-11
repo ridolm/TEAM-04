@@ -42,6 +42,7 @@ public class age {
  */
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         int age=28;
         if (age<=10){
             System.out.println("facebook hesabi acmak icin cok gencsin");
@@ -54,6 +55,10 @@ public class age {
         }else if(age>21){
             System.out.println("istedigini yapabilirsin");
         }
+=======
+        System.out.println("hello world");
+        System.out.println("asfdjaşsfjşas");
+>>>>>>> 91502731d7f589b4469f485b3fa5b709d9283183
     }
 
 

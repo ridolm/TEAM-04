@@ -32,7 +32,7 @@ public class days {
                 Eger int 8 den buyuk ise  print "this is not a valid day"
 
                 NOT : BU PROBLEMI ÇÖZERKEN SWITCH STATEMENT KULLANIN
-
+yeni proje
          */
     public static void main(String[] args) {
 

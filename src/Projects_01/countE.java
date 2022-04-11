@@ -54,7 +54,7 @@ public class countE {
             }
 
         }
-        System.out.println("String ifadede "+counter+" tane 'b' harfi vardir");
+        System.out.println("String ifadede "+counter+" adet 'b' harfi vardir");
 
     }
 }
