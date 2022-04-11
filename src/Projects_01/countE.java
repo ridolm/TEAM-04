@@ -1,5 +1,6 @@
 package Projects_01;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class countE {
@@ -37,9 +38,23 @@ public class countE {
 
     //hint: .charAt, length(), for, index, counter,
 
-
     public static void main(String[] args) {
 
+        Scanner input=new Scanner(System.in);
+        System.out.print("Lutfen bir string ifade giriniz : ");
+        String str=input.nextLine();
+        int counter=0;
 
+        String arr[]=str.split("");
 
-}}
+        for (int i = 0; i <arr.length ; i++) {
+            if(arr[i].contains("b")||arr[i].contains("B")){
+
+                counter++;
+            }
+
+        }
+        System.out.println("String ifadede "+counter+" tane 'b' harfi vardir");
+
+    }
+}

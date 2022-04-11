@@ -23,8 +23,9 @@ public class twoString {
        Örnek:      "abc", "cat" --> "abcat"
                    "abc", "dog"  -->"abcdog"
 
-
          */
+
+
 
     }
 }
