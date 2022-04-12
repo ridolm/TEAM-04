@@ -56,7 +56,22 @@ public class countE {
         }
         System.out.println("String ifadede "+counter+" tane 'b' harfi vardir");
 
+        System.out.println("********* 2. YOL **********");
+        // 2. YOL...
 
+        System.out.print("Lutfen bir string ifade giriniz : ");
+        String str1=input.nextLine();
+        int counter1=0;
+
+
+        for (int i = 0; i <str.length() ; i++) {
+            if(str.charAt(i)=='b'||str.charAt(i)=='B'){
+
+                counter1++;
+            }
+
+        }
+        System.out.println("String ifadede "+counter+" tane 'b' harfi vardir");
 
     }
 }
