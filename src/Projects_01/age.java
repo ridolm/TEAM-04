@@ -61,6 +61,8 @@ public class age {
             System.out.print("alkol icmek icin cok gencsin");
         }else {
             System.out.print("istedigini yapabilirsin");
+
+
         }
 
     }
