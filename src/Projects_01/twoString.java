@@ -27,7 +27,8 @@ public class twoString {
          */
 
 
-        System.out.println("merhba github");
+
+        System.out.println("yaparım");
 
     }
 }
