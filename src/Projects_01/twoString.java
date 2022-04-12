@@ -26,5 +26,9 @@ public class twoString {
 
          */
 
+
+
+        System.out.println("yaparım");
+
     }
 }
