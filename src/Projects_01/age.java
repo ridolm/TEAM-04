@@ -2,6 +2,7 @@ package Projects_01;
 
 import java.util.Scanner;
 
+
 public class age {
 
      /*
@@ -40,43 +41,29 @@ public class age {
            Eğer age 21 den büyük ise
            istedigini yapabilirsin print yapın.
  */
+
     public static void main(String[] args) {
 
-        System.out.println("hello world");
-        System.out.println("asfdjaşsfjşas");
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Lutfen yasinizi giriniz : ");
+        int yas = scan.nextInt();
+
+
+        if (yas<0) {
+            System.out.println("yanlis giris");
+        }else if (yas<=10){
+            System.out.print("facebook hesabi acmak icin cok gencsin");
+        }else if (yas<=16) {
+            System.out.print("ehliyet almak icin cok gencsin");
+        } else if (yas<=18){
+            System.out.print("dovme yaptirmak icin cok gencsin");
+        }else if (yas<=21){
+            System.out.print("alkol icmek icin cok gencsin");
+        }else {
+            System.out.print("istedigini yapabilirsin");
+
+
+        }
+
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
