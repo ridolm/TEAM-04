@@ -28,7 +28,20 @@ public class twoString {
 
 
 
-        System.out.println("yaparım");
+        Scanner scan=new Scanner(System.in);
+        System.out.print("İlk kelimeyi giriniz : ");
+        String ilkKelime=scan.next();
+        System.out.print("İkinci kelimeyi giriniz : ");
+        String ikinciKelime=scan.next();
+        String yeniKelime="";//iki kelimeyi birlestirmek için olusturuldu
+
+        if (ilkKelime.endsWith(ikinciKelime.substring(0,1))){//ilk kelimenın son harfı ıle ikinci kelimenin ilk harfi aynı mi?
+            // diye control ediyoruz
+            yeniKelime=ilkKelime+ikinciKelime.substring(1);
+        }else{
+            yeniKelime=ilkKelime+ikinciKelime;
+        }
+        System.out.println(yeniKelime);
 
     }
 }
