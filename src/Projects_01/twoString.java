@@ -43,5 +43,6 @@ public class twoString {
         }
         System.out.println(yeniKelime);
 
+
     }
 }
