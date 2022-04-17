@@ -29,6 +29,11 @@ public class RandomNum {
   */
     public static void main(String[] args) {
 
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lütfen bir sayi giriniz");
+        int max=scan.nextInt();
+        Random rnd=new Random();
+        System.out.println(rnd.nextInt(max));
 
     }
 }
