@@ -50,10 +50,17 @@ public class getTotal {
         int sayi2=Integer.parseInt(num2.replaceAll("[$A-Za-z]", ""));
         int sayi3=Integer.parseInt(num3.replaceAll("[$A-Za-z]", ""));
 
+<<<<<<< HEAD
         int toplam = (sayi1 + sayi2 + sayi3);
 
         if (toplam > 0) {
             System.out.println(toplam);
+=======
+        int output = (sayi1 + sayi2 + sayi3);
+
+        if (output > 0) {
+            System.out.println(output);
+>>>>>>> ali
         } else {
             System.out.println(-1);
         }
