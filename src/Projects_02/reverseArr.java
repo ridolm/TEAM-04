@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class reverseArr {
 
       /*
-        Given StringBuilder array
+        Given String array
 
         reverse the String array
 
