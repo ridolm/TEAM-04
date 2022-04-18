@@ -23,12 +23,12 @@ public class twoString {
        Örnek:      "abc", "cat" --> "abcat"
                    "abc", "dog"  -->"abcdog"
 
-
          */
 
 <<<<<<< HEAD
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> esat
         Scanner scan=new Scanner(System.in);
@@ -54,5 +54,11 @@ public class twoString {
 
 =======
 >>>>>>> esat
+=======
+
+        System.out.println("yaparım");
+
+
+>>>>>>> d88b2f9f767b02706ca46403f2aafe399411262c
     }
 }
