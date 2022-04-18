@@ -26,8 +26,11 @@ public class twoString {
 
          */
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> esat
         Scanner scan=new Scanner(System.in);
         System.out.print("İlk kelimeyi giriniz : ");
         String ilkKelime=scan.next();
@@ -36,13 +39,20 @@ public class twoString {
         String yeniKelime="";//iki kelimeyi birlestirmek için olusturuldu
 
         if (ilkKelime.endsWith(ikinciKelime.substring(0,1))){//ilk kelimenın son harfı ıle ikinci kelimenin ilk harfi aynı mi?
+<<<<<<< HEAD
             // diye control ediyoruz
+=======
+                                                             // diye control ediyoruz
+>>>>>>> esat
             yeniKelime=ilkKelime+ikinciKelime.substring(1);
         }else{
             yeniKelime=ilkKelime+ikinciKelime;
         }
         System.out.println(yeniKelime);
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> esat
     }
 }
