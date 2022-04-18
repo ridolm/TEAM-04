@@ -27,5 +27,10 @@ public class twoString {
 
 
 
+<<<<<<< HEAD
+=======
+        System.out.println("yaparım");
+
+>>>>>>> 20e6d29ca4e29cd0dc8a63191f38a23803e4a7d4
     }
 }
