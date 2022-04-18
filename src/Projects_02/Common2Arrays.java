@@ -1,5 +1,6 @@
 package Projects_02;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Common2Arrays {
@@ -27,10 +28,32 @@ public class Common2Arrays {
     */
     public static void main(String[] args) {
 
+       int [] a ={1,2,3};
+       int [] b ={1,3,5,8};
+
+        boolean esitMi=false;
+
+       if(a[0]==b[0] || a[a.length-1]==b[b.length-1]){
+
+                 esitMi=true;
+             }
+        System.out.println(esitMi);
+
+
+                }
+            }
 
 
 
 
-    }
 
-}
+
+
+
+
+
+
+
+
+
+
