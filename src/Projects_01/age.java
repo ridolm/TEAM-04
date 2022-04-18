@@ -44,8 +44,7 @@ public class age {
 
     public static void main(String[] args) {
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         int age=28;
         if (age<=10){
             System.out.println("facebook hesabi acmak icin cok gencsin");
@@ -58,11 +57,11 @@ public class age {
         }else if(age>21){
             System.out.println("istedigini yapabilirsin");
         }
-=======
+
         System.out.println("hello world");
         System.out.println("asfdjaşsfjşas");
->>>>>>> 91502731d7f589b4469f485b3fa5b709d9283183
-=======
+
+
         Scanner scan = new Scanner(System.in);
         System.out.print("Lutfen yasinizi giriniz : ");
         int yas = scan.nextInt();
@@ -84,6 +83,6 @@ public class age {
 
         }
 
->>>>>>> 20e6d29ca4e29cd0dc8a63191f38a23803e4a7d4
+
     }
 }

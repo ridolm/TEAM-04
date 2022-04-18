@@ -39,38 +39,21 @@ public class countE {
 
     public static void main(String[] args) {
 
-        Scanner input=new Scanner(System.in);
-<<<<<<< HEAD
+        Scanner input = new Scanner(System.in);
+
         System.out.print("Lutfen bir string ifade giriniz : ");
-        String str=input.nextLine();
-        int counter=0;
-=======
->>>>>>> hamza
+        String str = input.nextLine();
+        int counter = 0;
 
-        String arr[]=str.split("");
+        String arr[] = str.split("");
 
-<<<<<<< HEAD
-        for (int i = 0; i <arr.length ; i++) {
-            if(arr[i].contains("b")||arr[i].contains("B")){
-=======
-        System.out.print("Lutfen bir string ifade giriniz : ");
-        String str=input.nextLine();
-        int counter=0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i].contains("b") || arr[i].contains("B")) {
+            counter++;
 
 
-        for (int i = 0; i <str.length() ; i++) {
-            if(str.charAt(i)=='b'||str.charAt(i)=='B'){
->>>>>>> hamza
-
-                counter++;
             }
-
         }
-<<<<<<< HEAD
-        System.out.println("String ifadede "+counter+" adet 'b' harfi vardir");
-=======
-        System.out.println("String ifadede "+counter+" tane 'b' harfi vardir");
->>>>>>> hamza
-
+        System.out.println("String ifadede " + counter + " tane 'b' harfi vardir");
     }
 }
