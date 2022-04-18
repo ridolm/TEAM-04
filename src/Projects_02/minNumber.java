@@ -21,12 +21,21 @@ public class minNumber {
 
      */
 
+        public static void main(String[] args) {
 
 
+            int a[][] = {{1,2,3}, {2,3,1} , {5,5,5} , {2,1,3}};
 
-    public static void main(String[] args) {
+            int x = Integer.MAX_VALUE;
 
+            for(int [] w: a){
+                for(int m : w){
+                    if(x>m){
+                        x=m;
+                    }
+                }
+            }
+            System.out.println(x);
 
-}
-
+        }
 }
