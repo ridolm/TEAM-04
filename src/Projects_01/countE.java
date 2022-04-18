@@ -35,39 +35,22 @@ public class countE {
         output 1 olmalı
         */
 
-
     //hint: .charAt, length(), for, index, counter,
 
     public static void main(String[] args) {
 
         Scanner input=new Scanner(System.in);
+
+
         System.out.print("Lutfen bir string ifade giriniz : ");
         String str=input.nextLine();
         int counter=0;
-
-        String arr[]=str.split("");
-
-        for (int i = 0; i <arr.length ; i++) {
-            if(arr[i].contains("b")||arr[i].contains("B")){
-
-                counter++;
-            }
-
-        }
-        System.out.println("String ifadede "+counter+" tane 'b' harfi vardir");
-
-        System.out.println("********* 2. YOL **********");
-        // 2. YOL...
-
-        System.out.print("Lutfen bir string ifade giriniz : ");
-        String str1=input.nextLine();
-        int counter1=0;
 
 
         for (int i = 0; i <str.length() ; i++) {
             if(str.charAt(i)=='b'||str.charAt(i)=='B'){
 
-                counter1++;
+                counter++;
             }
 
         }
