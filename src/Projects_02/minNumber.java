@@ -10,7 +10,6 @@ public class minNumber {
         print the min number from the 2d array
      */
 
-
      /*
 
          {{1,2,3}, {2,3,1} , {5,5,5} , {2,1,3}}
@@ -23,10 +22,6 @@ public class minNumber {
 
         public static void main(String[] args) {
 
-            // Find the max. element in 2 dimensional array
-            int a[][] = { {5, 0}, {-5, 34}, {65, 22, 31} };
-
-<<<<<<< HEAD
             int a[][] = {{1,2,3}, {2,3,1} , {5,5,5} , {2,1,3}};
 
             int x = Integer.MAX_VALUE;
@@ -34,23 +29,11 @@ public class minNumber {
             for(int [] w: a){
                 for(int m : w){
                     if(x>m){
-=======
-            int x = Integer.MIN_VALUE;
-
-            for(int [] w: a){
-                for(int m : w){
-                    if(x<m){
->>>>>>> master
                         x=m;
                     }
                 }
             }
             System.out.println(x);
+        }
 
         }
-}
-<<<<<<< HEAD
-=======
-
-
->>>>>>> master
