@@ -23,8 +23,42 @@ public class twoString {
        Örnek:      "abc", "cat" --> "abcat"
                    "abc", "dog"  -->"abcdog"
 
-
          */
 
+<<<<<<< HEAD
+
+
+<<<<<<< HEAD
+=======
+>>>>>>> esat
+        Scanner scan=new Scanner(System.in);
+        System.out.print("İlk kelimeyi giriniz : ");
+        String ilkKelime=scan.next();
+        System.out.print("İkinci kelimeyi giriniz : ");
+        String ikinciKelime=scan.next();
+        String yeniKelime="";//iki kelimeyi birlestirmek için olusturuldu
+
+        if (ilkKelime.endsWith(ikinciKelime.substring(0,1))){//ilk kelimenın son harfı ıle ikinci kelimenin ilk harfi aynı mi?
+<<<<<<< HEAD
+            // diye control ediyoruz
+=======
+                                                             // diye control ediyoruz
+>>>>>>> esat
+            yeniKelime=ilkKelime+ikinciKelime.substring(1);
+        }else{
+            yeniKelime=ilkKelime+ikinciKelime;
+        }
+        System.out.println(yeniKelime);
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> esat
+=======
+
+        System.out.println("yaparım");
+
+
+>>>>>>> d88b2f9f767b02706ca46403f2aafe399411262c
     }
 }
